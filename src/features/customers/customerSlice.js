@@ -40,7 +40,7 @@ export function createCustomer(fullName, nationalID) {
 
 export function updateName(fullName) {
   return {
-    type: "accoung/updateName",
+    type: "customer/updateName",
     payload: fullName,
   };
 }
